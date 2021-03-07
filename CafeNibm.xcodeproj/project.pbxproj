@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2650BA25F30F8B00A159C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650B925F30F8B00A159C4 /* AppDelegate.swift */; };
+		EB2650BC25F30F8B00A159C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650BB25F30F8B00A159C4 /* SceneDelegate.swift */; };
+		EB2650BE25F30F8B00A159C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650BD25F30F8B00A159C4 /* ViewController.swift */; };
+		EB2650C125F30F8B00A159C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2650BF25F30F8B00A159C4 /* Main.storyboard */; };
+		EB2650C325F30F8C00A159C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2650C225F30F8C00A159C4 /* Assets.xcassets */; };
+		EB2650C625F30F8C00A159C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2650C425F30F8C00A159C4 /* LaunchScreen.storyboard */; };
+		EB2650D125F30F8C00A159C4 /* CafeNibmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650D025F30F8C00A159C4 /* CafeNibmTests.swift */; };
+		EB2650DC25F30F8C00A159C4 /* CafeNibmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650DB25F30F8C00A159C4 /* CafeNibmUITests.swift */; };
+		EB2650ED25F3101200A159C4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650EC25F3101200A159C4 /* SignUpViewController.swift */; };
+		EB2650F225F3104000A159C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650F125F3104000A159C4 /* LoginViewController.swift */; };
+		EB2650F725F3106100A159C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2650F625F3106100A159C4 /* HomeViewController.swift */; };
+		EB2BE46725F3A4A700BAF1A5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE46625F3A4A700BAF1A5 /* Utilities.swift */; };
+		EB2BE46C25F45D0E00BAF1A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE46B25F45D0E00BAF1A5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2650CD25F30F8C00A159C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2650AE25F30F8B00A159C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2650B525F30F8B00A159C4;
+			remoteInfo = CafeNibm;
+		};
+		EB2650D825F30F8C00A159C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2650AE25F30F8B00A159C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2650B525F30F8B00A159C4;
+			remoteInfo = CafeNibm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2650B625F30F8B00A159C4 /* CafeNibm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNibm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2650B925F30F8B00A159C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2650BB25F30F8B00A159C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB2650BD25F30F8B00A159C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2650C025F30F8B00A159C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2650C225F30F8C00A159C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2650C525F30F8C00A159C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2650C725F30F8C00A159C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2650CC25F30F8C00A159C4 /* CafeNibmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeNibmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2650D025F30F8C00A159C4 /* CafeNibmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNibmTests.swift; sourceTree = "<group>"; };
+		EB2650D225F30F8C00A159C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2650D725F30F8C00A159C4 /* CafeNibmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeNibmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2650DB25F30F8C00A159C4 /* CafeNibmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNibmUITests.swift; sourceTree = "<group>"; };
+		EB2650DD25F30F8C00A159C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2650EC25F3101200A159C4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EB2650F125F3104000A159C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB2650F625F3106100A159C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB2BE46625F3A4A700BAF1A5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../../../Downloads/CustomLoginDemo/CustomLoginDemo/Helpers/Utilities.swift; sourceTree = "<group>"; };
+		EB2BE46B25F45D0E00BAF1A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2650B325F30F8B00A159C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650C925F30F8C00A159C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650D425F30F8C00A159C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2650AD25F30F8B00A159C4 = {
+			isa = PBXGroup;
+			children = (
+				EB2650B825F30F8B00A159C4 /* CafeNibm */,
+				EB2650CF25F30F8C00A159C4 /* CafeNibmTests */,
+				EB2650DA25F30F8C00A159C4 /* CafeNibmUITests */,
+				EB2650B725F30F8B00A159C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2650B725F30F8B00A159C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2650B625F30F8B00A159C4 /* CafeNibm.app */,
+				EB2650CC25F30F8C00A159C4 /* CafeNibmTests.xctest */,
+				EB2650D725F30F8C00A159C4 /* CafeNibmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2650B825F30F8B00A159C4 /* CafeNibm */ = {
+			isa = PBXGroup;
+			children = (
+				EB2650B925F30F8B00A159C4 /* AppDelegate.swift */,
+				EB2650BB25F30F8B00A159C4 /* SceneDelegate.swift */,
+				EB2BE46525F3A37300BAF1A5 /* Helpers */,
+				EB2650FB25F3107B00A159C4 /* View Controllers */,
+				EB2650BF25F30F8B00A159C4 /* Main.storyboard */,
+				EB2650C225F30F8C00A159C4 /* Assets.xcassets */,
+				EB2650C425F30F8C00A159C4 /* LaunchScreen.storyboard */,
+				EB2BE46B25F45D0E00BAF1A5 /* GoogleService-Info.plist */,
+				EB2650C725F30F8C00A159C4 /* Info.plist */,
+			);
+			path = CafeNibm;
+			sourceTree = "<group>";
+		};
+		EB2650CF25F30F8C00A159C4 /* CafeNibmTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2650D025F30F8C00A159C4 /* CafeNibmTests.swift */,
+				EB2650D225F30F8C00A159C4 /* Info.plist */,
+			);
+			path = CafeNibmTests;
+			sourceTree = "<group>";
+		};
+		EB2650DA25F30F8C00A159C4 /* CafeNibmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2650DB25F30F8C00A159C4 /* CafeNibmUITests.swift */,
+				EB2650DD25F30F8C00A159C4 /* Info.plist */,
+			);
+			path = CafeNibmUITests;
+			sourceTree = "<group>";
+		};
+		EB2650FB25F3107B00A159C4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2650BD25F30F8B00A159C4 /* ViewController.swift */,
+				EB2650EC25F3101200A159C4 /* SignUpViewController.swift */,
+				EB2650F125F3104000A159C4 /* LoginViewController.swift */,
+				EB2650F625F3106100A159C4 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EB2BE46525F3A37300BAF1A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BE46625F3A4A700BAF1A5 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2650B525F30F8B00A159C4 /* CafeNibm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2650E025F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibm" */;
+			buildPhases = (
+				EB2650B225F30F8B00A159C4 /* Sources */,
+				EB2650B325F30F8B00A159C4 /* Frameworks */,
+				EB2650B425F30F8B00A159C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeNibm;
+			productName = CafeNibm;
+			productReference = EB2650B625F30F8B00A159C4 /* CafeNibm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2650CB25F30F8C00A159C4 /* CafeNibmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2650E325F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibmTests" */;
+			buildPhases = (
+				EB2650C825F30F8C00A159C4 /* Sources */,
+				EB2650C925F30F8C00A159C4 /* Frameworks */,
+				EB2650CA25F30F8C00A159C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2650CE25F30F8C00A159C4 /* PBXTargetDependency */,
+			);
+			name = CafeNibmTests;
+			productName = CafeNibmTests;
+			productReference = EB2650CC25F30F8C00A159C4 /* CafeNibmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB2650D625F30F8C00A159C4 /* CafeNibmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2650E625F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibmUITests" */;
+			buildPhases = (
+				EB2650D325F30F8C00A159C4 /* Sources */,
+				EB2650D425F30F8C00A159C4 /* Frameworks */,
+				EB2650D525F30F8C00A159C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2650D925F30F8C00A159C4 /* PBXTargetDependency */,
+			);
+			name = CafeNibmUITests;
+			productName = CafeNibmUITests;
+			productReference = EB2650D725F30F8C00A159C4 /* CafeNibmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2650AE25F30F8B00A159C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EB2650B525F30F8B00A159C4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EB2650CB25F30F8C00A159C4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EB2650B525F30F8B00A159C4;
+					};
+					EB2650D625F30F8C00A159C4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EB2650B525F30F8B00A159C4;
+					};
+				};
+			};
+			buildConfigurationList = EB2650B125F30F8B00A159C4 /* Build configuration list for PBXProject "CafeNibm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2650AD25F30F8B00A159C4;
+			productRefGroup = EB2650B725F30F8B00A159C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2650B525F30F8B00A159C4 /* CafeNibm */,
+				EB2650CB25F30F8C00A159C4 /* CafeNibmTests */,
+				EB2650D625F30F8C00A159C4 /* CafeNibmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2650B425F30F8B00A159C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2650C625F30F8C00A159C4 /* LaunchScreen.storyboard in Resources */,
+				EB2BE46C25F45D0E00BAF1A5 /* GoogleService-Info.plist in Resources */,
+				EB2650C325F30F8C00A159C4 /* Assets.xcassets in Resources */,
+				EB2650C125F30F8B00A159C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650CA25F30F8C00A159C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650D525F30F8C00A159C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2650B225F30F8B00A159C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2650BE25F30F8B00A159C4 /* ViewController.swift in Sources */,
+				EB2650BA25F30F8B00A159C4 /* AppDelegate.swift in Sources */,
+				EB2BE46725F3A4A700BAF1A5 /* Utilities.swift in Sources */,
+				EB2650ED25F3101200A159C4 /* SignUpViewController.swift in Sources */,
+				EB2650F225F3104000A159C4 /* LoginViewController.swift in Sources */,
+				EB2650BC25F30F8B00A159C4 /* SceneDelegate.swift in Sources */,
+				EB2650F725F3106100A159C4 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650C825F30F8C00A159C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2650D125F30F8C00A159C4 /* CafeNibmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2650D325F30F8C00A159C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2650DC25F30F8C00A159C4 /* CafeNibmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2650CE25F30F8C00A159C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2650B525F30F8B00A159C4 /* CafeNibm */;
+			targetProxy = EB2650CD25F30F8C00A159C4 /* PBXContainerItemProxy */;
+		};
+		EB2650D925F30F8C00A159C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2650B525F30F8B00A159C4 /* CafeNibm */;
+			targetProxy = EB2650D825F30F8C00A159C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2650BF25F30F8B00A159C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2650C025F30F8B00A159C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB2650C425F30F8C00A159C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2650C525F30F8C00A159C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2650DE25F30F8C00A159C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB2650DF25F30F8C00A159C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2650E125F30F8C00A159C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2650E225F30F8C00A159C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB2650E425F30F8C00A159C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeNibm.app/CafeNibm";
+			};
+			name = Debug;
+		};
+		EB2650E525F30F8C00A159C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CafeNibm.app/CafeNibm";
+			};
+			name = Release;
+		};
+		EB2650E725F30F8C00A159C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CafeNibm;
+			};
+			name = Debug;
+		};
+		EB2650E825F30F8C00A159C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CafeNibmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.CafeNibmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CafeNibm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2650B125F30F8B00A159C4 /* Build configuration list for PBXProject "CafeNibm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2650DE25F30F8C00A159C4 /* Debug */,
+				EB2650DF25F30F8C00A159C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2650E025F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2650E125F30F8C00A159C4 /* Debug */,
+				EB2650E225F30F8C00A159C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2650E325F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2650E425F30F8C00A159C4 /* Debug */,
+				EB2650E525F30F8C00A159C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2650E625F30F8C00A159C4 /* Build configuration list for PBXNativeTarget "CafeNibmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2650E725F30F8C00A159C4 /* Debug */,
+				EB2650E825F30F8C00A159C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2650AE25F30F8B00A159C4 /* Project object */;
+}
